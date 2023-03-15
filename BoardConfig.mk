@@ -132,6 +132,7 @@ TW_OVERRIDE_SYSTEM_PROPS := \
 # PitchBlack specific build flags
 PB_DEVICE_RATIO := "19.5:9"
 PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+PB_DISABLE_DEFAULT_DM_VERITY := true
 
 BOARD_USES_METADATA_PARTITION := true
 PLATFORM_VERSION := 16.1.0
